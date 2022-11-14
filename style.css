@@ -1,0 +1,140 @@
+/*
+colors 
+orange: #19202A
+container bg #1F2630
+rated bg #7E8798
+numbers bg; #252D3A
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.main-container, 
+.thank-you {
+    background-color: #1F2630;
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.main-container img {
+    background-color: #252D3A;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main-container ul li {
+    margin-left: 0;
+
+}
+
+.main-container ul li button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: #252D3A;
+    color: white;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+    
+}
+
+.main-container ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+    
+}
+.main-container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+    font-size: 1rem;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    padding: 0.8rem 0 0.7rem;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+.thank-you .p-one {
+    font-size: 0.9rem;
+    color: hsl(25, 97%, 53%);
+    background-color: #252D3A;
+    border-radius: 30px;
+    display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    /*padding: 0.2rem 0.2rem 0;*/
+    margin-bottom: 2rem;
+}
+
+ h1, h2 {
+    color: white;
+    margin: 2rem 0 1rem;
+}
+
+ p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+
+}
+
+ul {
+    list-style-type: none;
+}
+button {
+    font-family: inherit;
+}
+
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
