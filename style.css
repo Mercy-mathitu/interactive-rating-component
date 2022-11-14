@@ -1,10 +1,4 @@
-/*
-colors 
-orange: #19202A
-container bg #1F2630
-rated bg #7E8798
-numbers bg; #252D3A
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
@@ -32,6 +26,7 @@ body {
     background-color: #1F2630;
     padding: 1.5rem;
     border-radius: 0.625rem;
+    max-width: 400px;
 }
 
 .main-container img {
@@ -126,6 +121,12 @@ ul {
 }
 button {
     font-family: inherit;
+}
+
+
+
+.hidden {
+    display: none;
 }
 
 
